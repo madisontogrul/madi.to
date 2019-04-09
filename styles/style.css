@@ -1,0 +1,57 @@
+html {
+  font-size: 14px; /* px means 'pixels': the base font size is now 10 pixels high  */
+  font-family: 'Raleway', sans-serif; 
+  background-color: #FFFF;
+ }
+
+.titles {
+	color: purple;
+	font-size: 24px;
+	letter-spacing: 2px; 
+	text-align: center;
+	margin: 0;
+}
+
+p {
+	color: black;
+	font-size: 12px;
+  text-align: center;
+	line-height: 2;
+	font-family: 'Raleway', sans-serif;
+}
+
+.list {
+  color:black;
+  font-size: 12px;
+  font-weight: lighter;
+  font-family: 'Open-Sans', sans-serif;
+  text-align: left;
+width: 40%;
+position:relative;
+left: 40%;
+}
+
+.squirrel {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
+.subtitle {
+  text-align: center;
+}
+
+body {
+  width: 600px;
+  margin: 0 auto;
+  background-color: #FFB6C1;
+  padding: 0 20px 20px 20px;
+  border: 2px solid black;
+}
+
+h1 {
+  margin: 0;
+  padding: 20px 0;    
+  color: #00539F;
+}
