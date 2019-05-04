@@ -2,19 +2,26 @@ html {
   font-size: 14px; /* px means 'pixels': the base font size is now 10 pixels high  */
   font-family: 'Raleway', sans-serif; 
   background-color: #FFFF;
+  text-align:center;
+  color: #03032C;
  }
 
 .titles {
-	color: #00539F
 	font-size: 24px;
-	letter-spacing: 2px; 
+  font-weight: bold;
+	letter-spacing: 1px; 
 	text-align: center;
-	margin: 0;
-  padding: 5px;
+  padding: 1px;
+}
+
+.titles a {
+  text-decoration: none;
+  color: #808080;
+  font-size: 18px;
+  font-weight: normal;
 }
 
 .text {
-	color: #00539F;
 	font-size: 16px;
   text-align: center;
 	line-height: 2;
@@ -26,14 +33,24 @@ html {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 25%;
-  padding: 10px;
+  width: 20%;
+  padding: 5px;
+  border-radius: 10px;
 }
 
-.subtitle {
-  text-align: center;
+.social {
+  display: inline;
+  height: 300px;
+  width: 300px;
+  overflow: hidden;
 }
 
-body {
-  text-align: center;
+.social img {
+  height: auto;
+  width: 15px;
+  padding: 5px 3px; 
+}
+
+.social a{
+  text-decoration: none;
 }
